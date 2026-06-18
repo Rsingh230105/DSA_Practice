@@ -7,7 +7,7 @@ while num>0:
     sum = sum + (ld ** l)
     num = num // 10
 
-if sum == int(num):
+if sum == (num):
     print("Armstrong")
 else:
     print("Not Armstrong")
