@@ -35,7 +35,7 @@
 # ## TC = o(n+m)
 # ## SC = o(1)       
         
-# ## if using dictionary
+# ## if using dictionary ## no fixed length 
 
 n = [5,3,2,2,1,5,5,7,5,10]
 m = [10,111,1,9,5,67,2]

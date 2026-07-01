@@ -7,3 +7,6 @@ def count_equal_char(s):
     return freq.get('x', 0) == freq.get('o', 0)
 
 print(count_equal_char("xooxoxxo"))  # True
+
+## TC = O(N)
+## SC = o(1)

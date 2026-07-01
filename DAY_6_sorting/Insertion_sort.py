@@ -1,4 +1,10 @@
 ## Insertion sort
+'''
+TC = o(n**2)
+SC = o(1)
+
+'''
+
 def insertion_sort(nums):
     n = len(nums)
     

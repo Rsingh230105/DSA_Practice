@@ -1,4 +1,9 @@
 ## merge Sorted array
+'''
+TC = o(NlogN)
+SC = o(N)
+
+'''
 
 def merge_array(left,right):
     result = []

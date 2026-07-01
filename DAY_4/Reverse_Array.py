@@ -38,3 +38,4 @@ print(rev)
 num = [5,7,3,2,6,1,5,9]
 num.reverse()
 print(num)
+

@@ -11,6 +11,7 @@ for i in range(1,n+1):
         print(i,end=" ")
     print()
 """
+### reverse
 
 n = int(input("Enter the rows:"))
 for i in range(n,0,-1):

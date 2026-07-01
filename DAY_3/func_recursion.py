@@ -5,3 +5,6 @@ def func(n):
 
 x = func(5)
 print(x)
+
+## TC = o(N)
+## SC = o(N)

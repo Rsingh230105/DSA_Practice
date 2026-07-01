@@ -6,11 +6,11 @@ Quick Sort
   -> it can be middle element
   -> it can be any random element 
 2. put pivot at its correct position/index
-## best/avg case
+## best/avg case ### dout
 TC = o(nlogn)
-SC = o(1)
+SC = o(logn)
 ##
-# worst case: TC = o(n**2), SC = o(1)
+# worst case: TC = o(n**2), SC = o(n)
 [5,5,5,5,5,5,5,5,5,5,5,5]
 '''
 def partition(nums,low,high):

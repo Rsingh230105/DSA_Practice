@@ -11,3 +11,12 @@ def selection_sort(nums):
 
 x = selection_sort([5,7,3,2,1,8,9,4])
 print(x)
+
+## TC 
+'''
+Best	O(n²)
+Average	O(n²)
+Worst	O(n²)
+'''
+
+## SC = o(1)
