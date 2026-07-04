@@ -48,7 +48,8 @@ def move_zero2(nums):
         if nums[i] == 0:
             break
         i += 1
-        
+    
+    ## if In nums, all element non-zero so,    
     if i == n:
         return
     j = i + 1
@@ -63,5 +64,6 @@ def move_zero2(nums):
 
 print(move_zero2([0,1,0,3,12,0,2,3]))
 
-
+## TC = o(n)
+## SC = o(1)
     

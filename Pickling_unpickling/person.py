@@ -6,5 +6,3 @@ class Person:
     def display_info(self):
         return f"Hi my name is {self.name} and my age is {self.age}"
         
-p = Person("Ram",18)
-print(p.display_info())
