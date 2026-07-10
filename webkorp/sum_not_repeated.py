@@ -4,8 +4,17 @@
 Input: arr = [1, 2, 2, 3, 4, 4, 5]
 Output: 9 (1 + 3 + 5, since 2 and 4 repeat)
 '''
+## TC = o(n)
+## SC = o(n)
+## optimal
+
 def sum_of_array(arr):
     d = {}
+    
+    # for i in arr:
+    #     d[i] = d.get(i,0) + 1
+        
+    
     
     for i in range(len(arr)):
         if arr[i] not in d:

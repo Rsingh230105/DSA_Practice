@@ -9,3 +9,6 @@ class Solution:
                 return [seen[complement], i]
 
             seen[num] = i
+            
+# TC  = o(n)
+# SC = o(n)

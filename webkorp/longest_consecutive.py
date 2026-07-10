@@ -4,8 +4,10 @@
 Input: arr = [1, 1, 0, 1, 1, 1, 0, 1]
 Output: 3
 '''
+## optimal
+## TC = O(N)
+# SC =  o(1)
 def longest_con(arr):
-    # l = []
     count = 0
     max_count = 0
     for i in arr:

@@ -44,6 +44,7 @@ def move_zero2(nums):
     if n == 1:
         return 
     i = 0
+    ## if all element Zero
     while i<n:
         if nums[i] == 0:
             break

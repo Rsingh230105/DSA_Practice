@@ -29,11 +29,11 @@ def missing_number1(nums):
 print(missing_number1(nums))
 
 ## method 3 Optimal
-
+## TC =o(N), SC = o(1)
 def missing_number2(nums):
     n = len(nums)
-    total_sum = n*(n+1)//2
-    actual_sum = sum(nums)
+    total_sum = n*(n+1)//2 ## o(1)
+    actual_sum = sum(nums)## o(n)
     
     return total_sum - actual_sum
 
