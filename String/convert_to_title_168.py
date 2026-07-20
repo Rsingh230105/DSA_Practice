@@ -1,3 +1,5 @@
+#Time: O(log₍26₎ n)
+#Space: O(log₍26₎ n
 
 def convertToTitle( columnNumber: int) -> str:
     ans = ""

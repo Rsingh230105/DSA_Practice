@@ -31,3 +31,7 @@ print(obj.longestPalindrome("abccccdd"))
 print(obj.longestPalindrome("a"))
 print(obj.longestPalindrome("bb"))
 print(obj.longestPalindrome("ccc"))
+
+# Time  : O(n)
+
+# Space : O(k), k = distinct character

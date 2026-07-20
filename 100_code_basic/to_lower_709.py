@@ -12,4 +12,5 @@ print(to_lower("Hello"))
 print(to_lower("HELLO"))
 print(to_lower("hello"))
 
-    
+## TC = o(n)
+## SC = o(n)

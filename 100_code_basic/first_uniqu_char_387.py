@@ -24,4 +24,5 @@ print(firstUniqChar("loveleetcode"))
 print(firstUniqChar("aabb"))
 
 ## TC = o(N)
-## SC = o(k)    
+## SC = o(1) 
+## Space: O(1) (or O(26) for lowercase English letters, which is constant; more generally O(k) where k is the number of distinct characters)   
